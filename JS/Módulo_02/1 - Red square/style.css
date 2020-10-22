@@ -1,0 +1,31 @@
+body {
+  background-color: #3a3a3a;
+  font: Normal 14px Montserrat;
+  text-align: center;
+}
+h3 {
+  color: white;
+}
+section{
+  color: black;
+  padding: 20px;
+  width: 400px;
+  background-color: white;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 7px black;
+}
+#quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+footer {
+  color: white;
+  margin-top: 20px;
+  font: 600 16px Montserrat;
+}
