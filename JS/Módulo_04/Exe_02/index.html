@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>To Do List - Módulo 03</title>
+</head>
+<body>
+    <h3>Lista de Respositórios</h3>
+  <section>
+    <div id="app">
+      <input type="text" class="form-control"
+      id="added" placeholder="Adicione um username">
+      <button onclick="addUsername()" onkeypress="enter()"
+      class="btn btn-outline-secondary" id="btn">Adicionar</button>
+    </div>
+    <div>
+      <h6 id="nome"></h6>
+      <p><ul id="ul"></ul></p>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="script.js"></script>
+  <footer>&copy; Kalebe Santos</footer>
+</body>
+</html>
